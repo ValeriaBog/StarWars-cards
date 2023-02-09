@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800;900&display=swap');
+
+body{
+    font-family: 'Raleway';
+    background-image: url('planet2.webp');
+}
+.header{
+        background-image: url('starcopy.jpg');
+        background-position:center;
+        box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+    }
+#title-header{
+    text-align: center;
+    padding: 60px 0;
+    font-size: 900;
+    color: #fff;
+    text-shadow: -1px -1px 0 hsl(230, 67%, 4%),
+             -2px -2px 1px hsl(230, 67%, 4%);
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    }
+    .card{
+    color: #fff;
+    background: rgb(53, 52, 52);
+    box-shadow: 0px 1px 2px 0px rgba(0, 43, 78, 0.7),
+            1px 2px 4px 0px rgba(3, 76, 119, 0.7),
+            2px 4px 8px 0px rgba(0, 43, 78, 0.7),
+            2px 4px 16px 0px rgba(3, 76, 119, 0.7);
+    margin: 5px;
+    width: 362px;
+    }
+    .card-body{
+        position: relative;
+    }
+    
+    .card-title{
+        text-align: center;
+        font-size: 900;
+        font-weight: 500;
+        border-bottom: solid #fff 1px;
+        padding-bottom: 20px;
+    }
+    .card-text{
+        margin: 24px 0 37px 28px;
+    }
+    .card-text span{
+        font-size: 700;
+        font-weight: 600;
+        padding-right: 5px;
+    }
+    .btn{
+        position: absolute;
+        right: 25px;
+        bottom: 22px;
+        background-color: rgb(53, 52, 52);
+        box-shadow: 0px 1px 2px 0px rgba(0, 174, 255, 0.7),
+            1px 2px 4px 0px rgba(0, 174, 255, 0.7),
+            2px 4px 8px 0px rgba(0, 174, 255, 0.7),
+            2px 4px 16px 0px rgba(0, 174, 255, 0.7);
+        margin-left: 180px;
+        transition: .5s ease-in-out;
+    }
+    .btn:hover{
+        background-color: rgba(95, 95, 95, 0.445);
+        transition: .5s ease-in-out;
+    }
+    .modal-content{
+        background-color: rgb(53, 52, 52);
+        color: #fff;
+        box-shadow: 0px 1px 2px 0px rgba(0, 43, 78, 0.7),
+            1px 2px 4px 0px rgba(3, 76, 119, 0.7),
+            2px 4px 8px 0px rgba(0, 43, 78, 0.7),
+            2px 4px 16px 0px rgba(3, 76, 119, 0.7);
+    }
+    .modal-body{
+        margin-left: 20px;
+        position: relative;
+    }
+    .modal-header{
+        display: block;
+        position: relative;
+    }
+    .modal-title{
+        text-align: center;
+    }
+    .details-film{
+        margin-left: 87px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .details-film span{        
+        font-weight: 600;
+        margin-right: 10px;       
+    }
+    .button-modal-close{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        box-shadow: 0px 1px 2px 0px rgba(0, 174, 255, 0.7),
+            1px 2px 4px 0px rgba(0, 174, 255, 0.7),
+            2px 4px 8px 0px rgba(0, 174, 255, 0.7),
+            2px 4px 16px 0px rgba(0, 174, 255, 0.7);
+        transition: .5s ease-in-out;            
+    }
+    .button-modal-close:hover{
+        box-shadow: 0px 1px 2px 0px rgba(2, 120, 175, 0.596),
+        1px 2px 4px 0px rgba(2, 120, 175, 0.596),
+        2px 4px 8px 0px rgba(2, 120, 175, 0.596),
+        2px 4px 16px 0px rgba(2, 120, 175, 0.596);
+        transition: .5s ease-in-out;
+    }   
+    .paginator{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .paginator nav{
+        margin-right: 20px;
+    }
+    .background{
+        background: rgb(53, 52, 52);
+        color: #fff;
+        border: rgb(53, 52, 52);
+        box-shadow: 0px 1px 2px 0px rgba(0, 43, 78, 0.7),
+            1px 2px 4px 0px rgba(3, 76, 119, 0.7),
+            2px 4px 8px 0px rgba(0, 43, 78, 0.7),
+            2px 4px 16px 0px rgba(3, 76, 119, 0.7);
+            transition: .5s ease-in-out
+            
+    }
+    .background:hover{
+        background-color: rgba(36, 35, 35, 0.89);
+        transition: .5s ease-in-out;
+        color: #fff;
+    }
+    .page-item.active{
+        background-color: rgba(36, 35, 35, 0.89);
+    }
+    .btn-main{
+        position: static;
+        width: 180px;
+
+    }
+    .btn-main:hover{
+        background-color: rgba(36, 35, 35, 0.89);
+        transition: .5s ease-in-out;
+    }
+    .select-back{
+        background-color: rgb(53, 52, 52);
+        color: #fff;
+        border: rgb(53, 52, 52);
+        box-shadow: 0px 1px 2px 0px rgba(0, 43, 78, 0.7),
+            1px 2px 4px 0px rgba(3, 76, 119, 0.7),
+            2px 4px 8px 0px rgba(0, 43, 78, 0.7),
+            2px 4px 16px 0px rgba(3, 76, 119, 0.7);
+            transition: .5s ease-in-out
+    }
+    .select-back:hover{
+        background-color: rgba(36, 35, 35, 0.89);
+        transition: .5s ease-in-out;
+        color: #fff;
+    }
+    
